@@ -1482,13 +1482,16 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         box-shadow: ${config.floatingButtonStyle.hover.boxShadow};
     }
 
-    .cookie-settings-button svg {
-        width: 28px;
-        height: 28px;
-        fill: ${config.floatingButtonStyle.iconColor};
-        transition: transform 0.3s ease;
-    }
-
+ 
+#cookieFloatingButton.cookie-settings-button svg,
+#cookieFloatingButton.cookie-settings-button svg path {
+    width: 40px;
+    height: 40px;
+    fill: ${config.floatingButtonStyle.iconColor} !important;
+    stroke: none;
+    transition: transform 0.3s ease;
+    margin-top: 9px; /* Adds 5px margin to move the icon downward, as seen in the screenshot */
+}
     .cookie-settings-button:hover svg {
         transform: rotate(15deg);
     }
