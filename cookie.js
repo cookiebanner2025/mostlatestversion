@@ -414,7 +414,7 @@ const translations = {
         passwordSubmit: "Soumettre",
         passwordIncorrect: "Mot de passe incorrect",
         dashboardTitle: "Tableau de bord des analyses de consentement"
-    }
+    },
 de: {
         title: "Wir schätzen Ihre Privatsphäre",
         description: "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern, personalisierte Anzeigen oder Inhalte bereitzustellen und unseren Datenverkehr zu analysieren. Wenn Sie auf \"Alle akzeptieren\" klicken, erklären Sie sich mit der Verwendung von Cookies einverstanden.",
