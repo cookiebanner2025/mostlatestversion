@@ -1490,7 +1490,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     fill: ${config.floatingButtonStyle.iconColor} !important;
     stroke: none;
     transition: transform 0.3s ease;
-    margin-top: 9px; /* Adds 5px margin to move the icon downward, as seen in the screenshot */
+    margin-top: 0px; 
 }
     .cookie-settings-button:hover svg {
         transform: rotate(15deg);
