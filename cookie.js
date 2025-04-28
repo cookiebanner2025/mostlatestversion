@@ -1723,9 +1723,12 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     }
 
     .cookie-consent-buttons {
-        display: flex;
-        gap: 12px;
-        margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
     }
 
     .cookie-btn {
